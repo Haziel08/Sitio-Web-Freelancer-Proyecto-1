@@ -5,7 +5,7 @@ Este es un proyecto de una página web responsiva para un diseñador y desarroll
 
 ## 📸 Vista previa
 
-![Vista previa del sitio](./img/preview.jpg) <!-- Puedes agregar una imagen si tienes una -->
+freelancer-hazielibares.netlify.app/
 
 ---
 
@@ -15,7 +15,6 @@ Este es un proyecto de una página web responsiva para un diseñador y desarroll
 - Diseño responsive usando Flexbox y Grid.
 - Estilos modernos y tipografía de Google Fonts.
 - Formulario de contacto funcional (visual).
-- Código completamente comentado para principiantes.
 
 ---
 
@@ -47,21 +46,7 @@ Este es un proyecto de una página web responsiva para un diseñador y desarroll
 ## 📌 Recomendaciones
 
 - Puedes usar este sitio como plantilla base para tu portafolio personal.
-- Para hacerlo funcional, puedes conectar el formulario con servicios como Formspree, Getform o backend personalizado.
+- Para hacerlo funcional, puedes conectar el formulario a un backend personalizado.
 - Puedes mejorar el SEO agregando etiquetas meta y descripción.
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está disponible bajo la licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente.
-
----
-
-## ✍️ Autor
-
-**Haziel Ibares** – [Tu LinkedIn o sitio web opcional]
-
----
-
-¡Gracias por visitar el proyecto!
