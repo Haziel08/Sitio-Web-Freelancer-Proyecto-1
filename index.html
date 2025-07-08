@@ -1,21 +1,26 @@
+<!-- Estructura del documento HTML -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuración del documento -->
+    <meta charset="UTF-8"> <!-- Define codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Escala en móviles -->
     <title>Diseñador Freelancer</title>
+
+    <!-- Pre-carga y enlace a hojas de estilo -->
     <link rel="preload" href="css/normalize.css" as="style">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"> <!-- Resetea estilos por defecto del navegador -->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente externa -->
     <link rel="preload" href="css/styles.css" as="style">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Estilos propios -->
 </head>
 <body>
+    <!-- Encabezado con nombre del freelancer -->
     <header>
         <h1 class="titulo">Haziel Ibares <span>Freelancer</span> </h1>
     </header>
-
-    <div class="nav-bg">
+    <!-- Navegación principal -->
+    <div class="nav-bg"> <!-- Fondo de navegación -->
         <nav class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
             <a href="#">Sobre Mi</a>
@@ -24,11 +29,13 @@
         </nav>
     </div>
 
+    <!-- Sección principal tipo banner (hero) -->
     <section class="hero">
         <div class="contenido-hero">
             <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
 
-            <div class="ubicacion">
+            <!-- Ubicación con ícono -->
+            <div class="ubicacion"> <!-- Ícono SVG de ubicación -->
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="88"
@@ -46,14 +53,16 @@
                 <p>Ciudad de México</p>
             </div>
 
-            <a class="boton" href="#">Contactar</a>
+            <a class="boton" href="#">Contactar</a> <!-- Botón de contacto -->
         </div>
         
     </section>
-    
+
+    <!-- Contenido principal -->
     <main class="contenedor sombra">
         <h2>Mis Servicios</h2>
 
+        <!-- Lista de servicios -->
         <div class="servicios">
             <section class="servicio">
                 <h3>Diseño Web</h3>
@@ -150,6 +159,7 @@
         <section>
             <h2>Contacto</h2>
 
+            <!-- Formulario de contacto -->
             <form class="formulario">
                 <fieldset>
                     <legend>Contactáme llenando todos los campos</legend>
@@ -176,6 +186,7 @@
                         </div>
                     </div> <!-- .contenedor-campos-->
 
+                    <!-- Botón enviar -->
                     <div class="alinear-derecha flex">
                         <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
@@ -185,6 +196,8 @@
 
         </section>
     </main >
+
+    <!-- Pie de página -->
     <footer class="footer">
         <p>Todos los derechos reservados. Haziel Ibares Freelancer</p>  
     </footer>
